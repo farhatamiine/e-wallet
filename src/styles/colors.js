@@ -1,0 +1,11 @@
+export const headerTextColor = "#2E2F4C";
+export const textColor = "#7C8690";
+export const navTextColor = "#9199A1";
+export const secondaryTextColor = "#B8BFC6";
+export const navTextColorSelected = "#1FA7FB";
+export const lightBlue = "#EBF7FF";
+export const darkBlue = "#34AFFC";
+export const lightGreen = "#E2FAF1";
+export const darkGreen = "#0BE881";
+export const lightRed = "#FAECF0";
+export const darkRed = "#FD5D79";
