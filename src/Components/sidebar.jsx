@@ -11,22 +11,22 @@ export default function SideBar() {
   return (
     <Aside>
       <Logo src={logo} alt="logo" />
-      <SideBarLink>
+      <SideBarLink to="/">
         <RiDashboardFill /> Dashboard
       </SideBarLink>
-      <SideBarLink>
+      <SideBarLink to="/transaction">
         <BiTransferAlt />
         Transaction
       </SideBarLink>
-      <SideBarLink>
+      <SideBarLink to="/report">
         <TiChartBar />
         Report
       </SideBarLink>
-      <SideBarLink>
+      <SideBarLink to="/goal">
         <GiStairsGoal />
         Goal
       </SideBarLink>
-      <SideBarLink>
+      <SideBarLink to="/setting">
         <AiFillSetting />
         Setting
       </SideBarLink>

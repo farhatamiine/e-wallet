@@ -1,3 +1,5 @@
+import { Box } from "@chakra-ui/core";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import {
   headerTextColor,
@@ -6,9 +8,10 @@ import {
   textColor,
 } from "./colors";
 
-export const SideBarLink = styled.a`
+export const SideBarLink = styled(Link)`
   color: #9199a1;
   font-size: 18px;
+  text-decoration: none;
   background-color: #ffff;
   margin: 10px 0px;
   padding: 10px 25px;
@@ -18,15 +21,7 @@ export const SideBarLink = styled.a`
   cursor: pointer;
   width: 100%;
   &:hover {
-    background: linear-gradient(
-      270deg,
-      rgba(28, 230, 214, 1) 0%,
-      rgba(19, 174, 255, 1) 100%
-    );
-    color: #ffff;
-    svg {
-      color: #ffff;
-    }
+    color: rgba(19, 174, 255, 1);
   }
 `;
 
@@ -48,7 +43,7 @@ export const Header1 = styled(Header)`
   color: ${headerTextColor};
   text-transform: capitalize;
   font-size: 25px;
-  margin: 10px 0;
+  margin: 5px 0;
 `;
 export const Header2 = styled(Header)`
   color: ${headerTextColor};
@@ -65,10 +60,10 @@ export const Text = styled.p`
 
 export const MoneyCard = styled.div`
   width: 235px;
-  height: 119px;
+  height: 100px;
   border-radius: 10px;
   padding: 0 20px;
-  margin: 20px 10px 0;
+  margin: 15px 10px 0;
   background-color: #ffffff;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.03),
     0 4px 6px -2px rgba(0, 0, 0, 0.03) !important;
@@ -116,7 +111,7 @@ export const Aside = styled.div`
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   height: 100%;
-  width: 250px;
+  width: 240px;
 `;
 export const ProgressTitle = styled(InfoMoney)`
   text-align: right;
@@ -126,14 +121,15 @@ export const ProgressTitle = styled(InfoMoney)`
 
 export const Main = styled.div`
   background-color: #f9fbfd;
-  padding: 25px;
+  padding: 18px 15px;
   width: auto;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
   height: 100vh;
+  box-sizing: border-box;
   display: flex;
   z-index: 1;
-  margin-left: 250px;
+  margin-left: 240px;
 `;
 export const Wrapper = styled.div``;
 
@@ -183,9 +179,9 @@ export const ChartWrapper = styled(Wrapper)`
   width: auto;
   box-sizing: border-box;
   border: 1px solid #ebebebeb;
-  margin-top: 20px;
+  margin-top: 15px;
   background-color: #ffffff;
-  padding: 10px;
+  padding: 7px 10px;
   border-radius: 10px;
 `;
 export const SideContainer = styled(Wrapper)`
@@ -212,4 +208,37 @@ export const InfoWrapper = styled(Wrapper)`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 5px;
+`;
+
+//! Login Style
+export const LoginWrapper = styled(Wrapper)`
+  background-color: ${lightBlue};
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+`;
+
+export const FormContainer = styled(Box)`
+  width: 450px;
+  height: 500px;
+  padding: 20px 30px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+`;
+export const InputWrapper = styled(Wrapper)`
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  &:focus {
+    border: 2px solid dodgerblue;
+  }
 `;
