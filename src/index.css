@@ -11,3 +11,7 @@ svg {
   background-color: #ffff;
   background: transparent;
 }
+
+a.active {
+  color: #34affc;
+}

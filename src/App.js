@@ -1,6 +1,7 @@
 import { CSSReset, ThemeProvider } from "@chakra-ui/core";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 function App() {
@@ -16,7 +17,7 @@ function App() {
             <Register />
           </Route>
           <Route path="/dashboard">
-            <Dashboard />
+            <Home />
           </Route>
         </Switch>
       </ThemeProvider>

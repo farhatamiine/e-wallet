@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/core";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import {
   headerTextColor,
@@ -8,7 +8,7 @@ import {
   textColor,
 } from "./colors";
 
-export const SideBarLink = styled(Link)`
+export const SideBarLink = styled(NavLink)`
   color: #9199a1;
   font-size: 18px;
   text-decoration: none;

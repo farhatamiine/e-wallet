@@ -69,7 +69,7 @@ function Login() {
           leftIcon={FcGoogle}
           marginTop="20px"
           bg="#E8EFFF"
-          onClick={() =>history.push('')}
+          onClick={() => history.push("/dashboard")}
           _focus={{ outline: 0 }}
           color="#7688A3"
           w="100%"
