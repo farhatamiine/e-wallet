@@ -1,5 +1,5 @@
 import React from "react";
-import { Progress, ProgressTitle, ProgressWrapper } from "../../styles";
+import { Progress, ProgressTitle, ProgressWrapper } from "../styles";
 
 export default function ProgressBar({
   height,

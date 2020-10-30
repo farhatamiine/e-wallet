@@ -3,6 +3,10 @@ import { AiFillShopping } from "react-icons/ai";
 import { GiBodyBalance, GiCityCar } from "react-icons/gi";
 import { IoIosWallet } from "react-icons/io";
 import { TiArrowDownThick, TiArrowUpThick } from "react-icons/ti";
+import { Analytics } from "../../Components/Analytics";
+import InfoCard from "../../Components/infoCard";
+import MonthlySpend from "../../Components/MonthlySpend";
+import SectorExpance from "../../Components/SectorExpance";
 import {
   CardWrapper,
   Container,
@@ -10,7 +14,7 @@ import {
   Header2,
   Main,
   SideContainer,
-} from "../styles";
+} from "../../styles";
 import {
   darkBlue,
   darkGreen,
@@ -18,25 +22,36 @@ import {
   lightBlue,
   lightGreen,
   lightRed,
-} from "../styles/colors";
-import { Analytics } from "../Components/Analytics";
-import InfoCard from "../Components/infoCard";
-import MonthlySpend from "../Components/MonthlySpend";
-import SectorExpance from "../Components/SectorExpance";
-export default function Dashboard() {
+} from "../../styles/colors";
+function Dashboard({ balance, income, expance, currency }) {
   return (
     <Main>
       <Container>
         <Header1>Financial Overview</Header1>
         <Header2>My Balance</Header2>
         <CardWrapper>
-          <InfoCard type="balance" money="4353" color="blue" devise="$">
+          <InfoCard
+            type="balance"
+            money={balance}
+            color="blue"
+            devise={currency}
+          >
             <IoIosWallet size={40} color={darkBlue} />
           </InfoCard>
-          <InfoCard type="Income" money="2504" color="green" devise="$">
+          <InfoCard
+            type="Income"
+            money={income}
+            color="green"
+            devise={currency}
+          >
             <TiArrowUpThick size={40} color={darkGreen} />
           </InfoCard>
-          <InfoCard type="Expances" money="1235" color="red" devise="$">
+          <InfoCard
+            type="Expances"
+            money={expance}
+            color="red"
+            devise={currency}
+          >
             <TiArrowDownThick size={40} color={darkRed} />
           </InfoCard>
         </CardWrapper>
@@ -76,3 +91,4 @@ export default function Dashboard() {
     </Main>
   );
 }
+export default Dashboard;

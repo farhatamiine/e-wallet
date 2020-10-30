@@ -8,8 +8,8 @@ import {
 import React from "react";
 import { AiOutlineLock, AiOutlineMail, AiOutlineUser } from "react-icons/ai";
 import { useHistory } from "react-router-dom";
-import { FormContainer, Header1, LoginWrapper } from "../styles";
-import { darkBlue } from "../styles/colors";
+import { FormContainer, Header1, LoginWrapper } from "../../styles";
+import { darkBlue } from "../../styles/colors";
 
 function Register() {
   let history = useHistory();
@@ -27,6 +27,7 @@ function Register() {
             children={<AiOutlineUser color="#B9D1FC" size={20} />}
           />
           <Input
+            name="fullName"
             _hover={{ borderColor: darkBlue }}
             _focus={{ borderColor: darkBlue, borderWidth: "2px" }}
             type="text"
@@ -42,6 +43,7 @@ function Register() {
             _hover={{ borderColor: darkBlue }}
             _focus={{ borderColor: darkBlue, borderWidth: "2px" }}
             type="email"
+            name="email"
             placeholder="Email"
           />
         </InputGroup>
@@ -54,6 +56,7 @@ function Register() {
             _hover={{ borderColor: darkBlue }}
             _focus={{ borderColor: darkBlue, borderWidth: "2px" }}
             type="password"
+            name="password"
             placeholder="Password"
           />
         </InputGroup>
@@ -64,6 +67,7 @@ function Register() {
           />
           <Input
             type="password"
+            name="confirmPassword"
             _hover={{ borderColor: darkBlue }}
             _focus={{ borderColor: darkBlue, borderWidth: "2px" }}
             placeholder="Confirm password"

@@ -1,18 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { AiFillSetting } from "react-icons/ai";
 import { BiTransferAlt } from "react-icons/bi";
 import { GiStairsGoal } from "react-icons/gi";
 import { RiDashboardFill } from "react-icons/ri";
 import { TiChartBar } from "react-icons/ti";
-import { useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { Aside, Logo, SideBarLink } from "../styles";
 
 export default function SideBar() {
-  const location = useLocation();
-  useEffect(() => {
-    console.log(location.pathname);
-  }, [location]);
   return (
     <Aside>
       <Logo src={logo} alt="logo" />

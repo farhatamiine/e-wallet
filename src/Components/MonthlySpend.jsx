@@ -7,7 +7,7 @@ import {
   MontlyText,
   ProgressTitle,
 } from "../styles";
-import ProgressBar from "./utils/ProgressBar";
+import ProgressBar from "../utils/ProgressBar";
 
 export default function MonthlySpend({
   bgColor,

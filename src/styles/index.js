@@ -85,7 +85,7 @@ export const MoneyCard = styled.div`
 export const Balance = styled(Text)`
   color: ${(props) => (props.color === null ? lightBlue : props.color)};
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
 `;
 export const InfoMoney = styled(Text)`
@@ -131,6 +131,9 @@ export const Main = styled.div`
   z-index: 1;
   margin-left: 240px;
 `;
+export const TransactionMain = styled(Main)`
+  flex-direction: column;
+`;
 export const Wrapper = styled.div``;
 
 export const ProgressWrapper = styled(Wrapper)`
@@ -138,7 +141,9 @@ export const ProgressWrapper = styled(Wrapper)`
     props.color === null ? lightBlue : props.color};
   border-radius: 10px;
 `;
-
+export const Form = styled.form`
+  width: 100%;
+`;
 export const Progress = styled(Wrapper)`
   height: ${(props) => (props.height === null ? "24px" : props.height)};
   border-radius: 10px;
@@ -231,6 +236,10 @@ export const FormContainer = styled(Box)`
   justify-content: center;
   border-radius: 10px;
 `;
+export const FormTransaction = styled(FormContainer)`
+  height: 300px;
+`;
+
 export const InputWrapper = styled(Wrapper)`
   width: 100%;
   margin-bottom: 15px;

@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/core";
 import React, { useEffect, useState } from "react";
 import { Balance, IconWrapper, InfoMoney, MoneyCard, Wrapper } from "../styles";
 import {
@@ -40,8 +41,10 @@ export default function InfoCard({ devise, type, color, money, children }) {
       <IconWrapper bg={bgColor}>{children}</IconWrapper>
       <Wrapper>
         <Balance color={mainColor}>
-          {devise}
           {money}
+          <Text as="span" ml="3px">
+            {devise}
+          </Text>
         </Balance>
         <InfoMoney>{type}</InfoMoney>
       </Wrapper>
