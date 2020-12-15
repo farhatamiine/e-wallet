@@ -5,11 +5,10 @@
   <li>I attend to rebuilt it using <b>Next Js</b></li>
 </ul>
 # Available Screenshoot
-## Login Interface
-<img src="./img2.jpeg" alt="Login Interface"/>
-## Dashboard
-<img src="./img1.jpeg" alt="Dashboard"/>
-
+<div style="dislplay:flex;">
+  <img src="./img2.jpeg" alt="Login Interface"/>
+  <img src="./img1.jpeg" alt="Dashboard"/>
+</div>
 ### `npm start`
 
 Runs the app in the development mode.<br />
