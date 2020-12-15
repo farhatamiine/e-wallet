@@ -3,6 +3,8 @@
 
 ---
 
+<hr>
+<hr>
 <h1 id="expanse-tracker">Expanse Tracker</h1>
 <p>Hey,I’m new to <em><strong>react world</strong></em> and this is my first project to learn it<br>
 I believe on the term : <strong>learning by doing</strong></p>
@@ -19,6 +21,3 @@ and this is what i come up with :</p>
 <h2 id="login-ui"><em>Login UI</em></h2>
 <p><img src="https://i.ibb.co/0MMR1cH/img2.jpg" alt="Login Interface"></p>
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ2MDQ1NTVdfQ==
--->
