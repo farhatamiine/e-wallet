@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="expanse-tracker">Expanse Tracker</h1>
 <p>Hey,I’m new to <em><strong>react world</strong></em> and this is my first project to learn it<br>
 I believe on the term : <strong>learning by doing</strong></p>
@@ -23,7 +18,7 @@ So i tought why not build a Web app for now and build mobile version for later
 	<li>React js</li>
 	<li>Reduxjs</li>
 </ul>
-<h4>I followed this design on Dribbble :</h4>
+ followed this design on Dribbble :<>
 <img src="https://i.ibb.co/TqVpsPB/2b08e74a-972c-4562-b41b-3dc89fb2bb4b.jpg" alt="Expanse Tracker Dribbble Design"><br>
 and this is what i come up with :<p></p>
 <h2 id="dashboard-ui"><em>Dashboard UI</em></h2>
@@ -31,3 +26,6 @@ and this is what i come up with :<p></p>
 <h2 id="login-ui"><em>Login UI</em></h2>
 <p><img src="https://i.ibb.co/0MMR1cH/img2.jpg" alt="Login Interface"></p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA1NjQwMDM3Ml19
+-->
