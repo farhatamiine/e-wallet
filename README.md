@@ -9,9 +9,7 @@ I believe on the term : <strong>learning by doing</strong></p>
 <h3 id="idea-">Idea :</h3>
 <p>I find it hard to keep track of what i’m buying when i’m go out or partying with my friends.<br>
 So i tought why not build a Web app for now and build mobile version for later
-</p><h4>The app should :</h4>
-<ul>
-	<li>Be easy to use</li>
+</p><h4>The app should e easy to use</li>
 	<li>Have good looking UI</li>
 	<li>Have the functionality to manage my expanses</li>
 </ul>
@@ -23,3 +21,6 @@ and this is what i come up with :<p></p>
 <h2 id="login-ui"><em>Login UI</em></h2>
 <p><img src="https://i.ibb.co/0MMR1cH/img2.jpg" alt="Login Interface"></p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODkxMDc4NjI1XX0=
+-->
