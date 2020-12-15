@@ -3,10 +3,6 @@
 
 ---
 
-<hr>
-<hr>
-<hr>
-<hr>
 <h1 id="expanse-tracker">Expanse Tracker</h1>
 <p>Hey,I’m new to <em><strong>react world</strong></em> and this is my first project to learn it<br>
 I believe on the term : <strong>learning by doing</strong></p>
