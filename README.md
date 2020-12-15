@@ -12,6 +12,7 @@ I believe on the term : <strong>learning by doing</strong></p>
 <p>I find it hard to keep track of what i’m buying when i’m go out or partying with my friends.<br>
 So i tought why not build a Web app for now and build mobile version for later
 </p>
+
 <h4>The app should :</h4>
 <ul>
 <li>The app should e easy to use</li>
@@ -33,3 +34,6 @@ and this is what i come up with :<p></p>
 <h2 id="login-ui"><em>Login UI</em></h2>
 <p><img src="https://i.ibb.co/0MMR1cH/img2.jpg" alt="Login Interface"></p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTI0OTc5MjQyM119
+-->
