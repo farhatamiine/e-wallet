@@ -1,7 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+# Expanse Tracker
+<p> Expanse Tracker application built using react js </p>
+<ul>
+  <li>For now only the Login and The dashboard part are buit</li>
+  <li>I attend to rebuilt it using <b>Next Js</b></li>
+</ul>
+## Available Screenshoot
+### Login Interface
 <img src="./img2.jpeg" alt="Login Interface"/>
+### Dashboard
 <img src="./img1.jpeg" alt="Dashboard"/>
 
 ### `npm start`
