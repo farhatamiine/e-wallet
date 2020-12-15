@@ -3,10 +3,12 @@
 I believe on the term : <strong>learning by doing</strong></p>
 <h3 id="idea-">Idea :</h3>
 <p>I find it hard to keep track of what i’m buying when i’m go out or partying with my friends.<br>
-So i tought why not build a Web app for now and build mobile version for later<br> 
+So i tought why not build a Web app for now and build mobile version for later
+
 <ul>
 	<li>The app should be easy to use</li>
-	<li>Good </li>
+	<li>Good looking UI</li>
+	<li>Should have the functionality to manage my expanses</li>
 </ul>
 i followed this design on Dribbble :<br>
 <img src="https://i.ibb.co/TqVpsPB/2b08e74a-972c-4562-b41b-3dc89fb2bb4b.jpg" alt="Expanse Tracker Dribbble Design"><br>
@@ -17,5 +19,5 @@ and this is what i come up with :</p>
 <p><img src="https://i.ibb.co/0MMR1cH/img2.jpg" alt="Login Interface"></p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzUwNDYxOV19
+eyJoaXN0b3J5IjpbLTE1NTU0MjkyMTVdfQ==
 -->
