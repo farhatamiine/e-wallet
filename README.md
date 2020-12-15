@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-In the project directory, you can run:
+<img src="./img2.jpeg" alt="Login Interface"/>
+<img src="./img1.jpeg" alt="Dashboard"/>
 
 ### `npm start`
 
